@@ -1,6 +1,8 @@
 describe("Line", function() {
   
   it("After Call Line Template, the container should contain the Line.", function() {
+    window.test = true;
+
     var bodyObject = $('body');
 
     // create div container

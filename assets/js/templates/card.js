@@ -8,16 +8,23 @@
  */
 function callCardTemplate( container ){
 
-	var card_name = prompt("Card Content:");
+	var card_content = null;
 
-	if( card_name == null ){
-		return;
+	if( window.test != true ){
+		card_content = prompt("Card Content:");
+
+		if( card_content == null ){
+			return;
+		}
+	}else{
+		card_content = "Test test";
 	}
+	
 	
 	var template = _.template(
 		"<div class='card'>"
 
-			+ "<div class='card-container'>" + card_name + "</div>"
+			+ "<div class='card-container'>" + card_content + "</div>"
 
 		+ "</div>"
     );

@@ -1,6 +1,8 @@
 describe("Card", function() {
   
   it("After Call Card Template, the container should contain the Card.", function() {
+    window.test = true;
+    
     var bodyObject = $('body');
 
     // create div container

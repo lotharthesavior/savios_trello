@@ -8,10 +8,16 @@
  */
 function callLineTemplate( container ){
 
-	var line_name = prompt("Line Name:");
+	var line_name = null;
 
-	if( line_name == null ){
-		return;
+	if( window.test != true ){
+		line_name = prompt("Line Name:");
+
+		if( line_name == null ){
+			return;
+		}
+	}else{
+		line_name = "Test";
 	}
 	
 	var template = _.template(
@@ -24,7 +30,7 @@ function callLineTemplate( container ){
 			+ "<div class='newCard' onclick='callCardTemplate($(this).prev())'>"
 
 				+ "<i class='fa fa-plus' aria-hidden='true'></i> Card"
-				
+
 			+ "</div>"
 
 		+ "</div>"
