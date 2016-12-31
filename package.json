@@ -1,0 +1,25 @@
+{
+  "name": "trello-board-dojo",
+  "version": "1.0.0",
+  "description": "Trello Board Dojo ",
+  "main": "index.html",
+  "dependencies": {
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^2.0.0",
+    "pump": "^1.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Trello",
+    "Board",
+    "Dojo"
+  ],
+  "author": "Savio Resende <savio@savioresende.com.br>",
+  "license": "MIT"
+}
