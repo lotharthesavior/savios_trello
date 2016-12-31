@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Minisis Trello</title>
+	<title>Savio's Trello</title>
 
-	<link rel="stylesheet" type="text/css" href="assets/libs/jquery-ui-1.12.1/jquery-ui.min.css" />
-	<link rel="stylesheet" type="text/css" href="assets/libs/jquery-ui-1.12.1/jquery-ui.structure.min.css" />
-	<link rel="stylesheet" type="text/css" href="assets/libs/jquery-ui-1.12.1/jquery-ui.theme.min.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/build/styles.css" />
 
 </head>
 <body>
 
-	<h1>Minisis Trello</h1>
+	<h1>Savio's Trello</h1>
 
 	<div class="board">
+		
 		<div class="menu">
 			<ul>
-				<li><a onclick="callLineTemplate( $('.board .content') )">+ line</a></li>
+				<li>Menu Item</li>
 			</ul>
 		</div>
+
 		<div class="content"></div>
+		
+		<div id="newLine" onclick="callLineTemplate( $('.board .content') )">+ line</div>
+		
+		<div class="cleaner"></div>
 	</div>
 
 	<script type="text/javascript" src="assets/js/build/script.js"></script>

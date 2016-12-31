@@ -1,0 +1,21 @@
+.line {
+  min-height: 500px;
+  width: 250px;
+  float: left;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000;
+  margin-right: 15px; }
+  .line .line-container {
+    padding-top: 25px;
+    padding-bottom: 25px; }
+
+#newLine {
+  width: 250px;
+  min-height: 50px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000;
+  background-color: blue;
+  color: #fff;
+  float: left; }
