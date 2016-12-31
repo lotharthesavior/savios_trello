@@ -12,8 +12,11 @@ Simple DOJO implementatino of Trello Board. =)
   - Font Awesome ``(http://fontawesome.io/)``
 
 **Test Engine:** Jasmine ``(https://jasmine.github.io/)``
+
 **CSS Extension:** Sass ``(https://sass-lang.com/)``
+
 **Package Manager:** Npm ``(https://www.npmjs.com/)``
+
 **Build System:** GulpJS ``(http://gulpjs.com/)``
 
 ### Installation
