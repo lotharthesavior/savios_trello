@@ -4,6 +4,7 @@
   "description": "Trello Board Dojo ",
   "main": "index.html",
   "dependencies": {
+    "font-awesome": "^4.7.0",
     "underscore": "^1.8.3"
   },
   "devDependencies": {

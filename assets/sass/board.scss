@@ -5,4 +5,16 @@
 	border: 1px solid #000;
 	background: #ccc;
 	box-sizing: border-box;
+	padding: 15px;
+}
+
+#newLine{
+	width: 250px;
+	min-height: 50px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000;
+	background-color: blue;
+	color: #fff;
+	float: left;
 }

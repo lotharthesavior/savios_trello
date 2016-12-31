@@ -7,13 +7,17 @@
  * @param Object container
  */
 function callCardTemplate( container ){
+
+	var card_name = prompt("Card Content:");
+
+	if( card_name == null ){
+		return;
+	}
 	
 	var template = _.template(
 		"<div class='card'>"
 
-			+ "<h1>Card</h1>"
-
-			+ "<div class='card-container'>Content...</div>"
+			+ "<div class='card-container'>" + card_name + "</div>"
 
 		+ "</div>"
     );

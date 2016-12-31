@@ -7,6 +7,12 @@
 	border-style: solid;
 	border-color: #000;
 	margin-right: 15px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+
+	h1{
+		padding: 0px 10px;
+	}
 
 	.line-container{
 		padding-top: 25px;
@@ -14,13 +20,6 @@
 	}
 }
 
-#newLine{
-	width: 250px;
-	min-height: 50px;
-	border-width: 1px;
-	border-style: solid;
-	border-color: #000;
-	background-color: blue;
-	color: #fff;
-	float: left;
+.newCard{
+	margin-left: 10px;
 }

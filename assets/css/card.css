@@ -1,4 +1,7 @@
 .card {
   border: 1px solid #000;
   margin: 10px;
-  background: #fff; }
+  background: #fff;
+  padding: 15px 20px; }
+  .card .card-container {
+    word-wrap: break-word; }

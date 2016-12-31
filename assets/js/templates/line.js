@@ -7,15 +7,25 @@
  * @param Object container
  */
 function callLineTemplate( container ){
+
+	var line_name = prompt("Line Name:");
+
+	if( line_name == null ){
+		return;
+	}
 	
 	var template = _.template(
 		"<div class='line'>"
 			
-			+ "<h1>Line</h1>"
+			+ "<h1>" + line_name + "</h1>"
 
 			+ "<div class='line-container'></div>"
 
-			+ "<div class='newCard' onclick='callCardTemplate($(this).prev())'>+ Card</div>"
+			+ "<div class='newCard' onclick='callCardTemplate($(this).prev())'>"
+
+				+ "<i class='fa fa-plus' aria-hidden='true'></i> Card"
+				
+			+ "</div>"
 
 		+ "</div>"
     );

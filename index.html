@@ -3,6 +3,8 @@
 <head>
 	<title>Savio's Trello</title>
 
+	<link rel="stylesheet" type="text/css" href="node_modules/font-awesome/css/font-awesome.css" />
+
 	<link rel="stylesheet" type="text/css" href="assets/css/build/styles.css" />
 
 </head>
@@ -11,16 +13,11 @@
 	<h1>Savio's Trello</h1>
 
 	<div class="board">
-		
-		<div class="menu">
-			<ul>
-				<li>Menu Item</li>
-			</ul>
-		</div>
 
 		<div class="content"></div>
 		
-		<div id="newLine" onclick="callLineTemplate( $('.board .content') )">+ line</div>
+		<div id="newLine" onclick="callLineTemplate( $('.board .content') )"><i class="fa fa-plus" aria-hidden="true"></i>
+ line</div>
 		
 		<div class="cleaner"></div>
 	</div>
