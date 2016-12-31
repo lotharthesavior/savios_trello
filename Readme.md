@@ -2,6 +2,8 @@
 ##### Author: Savio Resende <savio@savioresende.com.br>
 ##### Website: savioresende.com.br
 
+Demo: https://lotharthesavior.github.io/savios_trello/
+
 Simple DOJO implementatino of Trello Board. =)
 
 **Dependencies:**
